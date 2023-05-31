@@ -1,0 +1,3 @@
+CUDA_VISIBLE_DEVICES=0 python train_mctl_model.py --config_file="reid_configs/prs.yml" GPU_IDS [0] DATASETS.NAMES 'market1501' DATASETS.ROOT_DIR '/code/dataset/track/ReID/' SOLVER.IMS_PER_BATCH 16 TEST.IMS_PER_BATCH 128 SOLVER.BASE_LR 0.00035 OUTPUT_DIR './reid_logs/market1501/rps' DATALOADER.USE_RESAMPLING False USE_MIXED_PRECISION False
+
+# `CUDA_VISIBLE_DEVICES` controls which GPUs are visible to the scripts.
