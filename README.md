@@ -1,3 +1,4 @@
+本项目基于centroid
 # PRSNet pre-training step
 ## 1. Dataset preparation
     ①. 将COCO2017和PASCAL VOC数据中的行人图像裁剪出来用于自监督学习预训练；
